@@ -1,0 +1,30 @@
+body{
+    background-color: linear-gradient();
+    margin-left: 480px;
+}
+.video{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    border: 20vh;
+    align-items: center;
+}
+.item1{
+    border: 9px solid black;
+}
+.item2{
+    border: 9px solid black;
+    margin-top: -10vh;
+}
+.item3{
+    border: 9px solid black;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -117.8vh;
+    margin-left: 20vw;
+}
+.img1{
+    border: 9px solid black;
+}
