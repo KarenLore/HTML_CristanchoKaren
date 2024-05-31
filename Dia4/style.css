@@ -6,6 +6,8 @@ body{
 }
 .primero{
     display: grid;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -71,3 +73,11 @@ body{
     grid-column: 1;
     grid-row: 3;
 }
+/* .video7{
+    grid-column: 2;
+    grid-row: 3 / span 4;
+}
+.video8{
+    grid-column: 2;
+    grid-row: 3 / span 5;
+} */
