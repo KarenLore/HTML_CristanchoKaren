@@ -12,14 +12,15 @@ body{
     grid-template-columns: auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
     border-radius: 25px;
-    padding: 1.40vw;
+    padding: 20px;
     gap: 1.045vw;
     margin-top: 1vh;
     width: 70vw;
     object-fit: cover;
 }
 .video1{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1;
     grid-row: 1;
 }
@@ -34,12 +35,14 @@ body{
     grid-row: 3;
 }
 .video2{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1;
     grid-row: 2;
 }
 .video3{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 3;
 }
@@ -48,27 +51,19 @@ body{
     background-color: black;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
-    gap: 10px;
+    gap: 5px;
     border-radius: 25px;
     padding: 20px;
     margin-top: 1vh;
     width: 70vw;
 }
 
-.img3{
+/* .img3{
     border-radius: 8px;
     grid-column: 1 / span 2;
     grid-row: 1;
     width: 100%;
-    height: 100%;
-}
-
-.video4{
-    border-radius: 15%;
-    grid-column: 3;
-    grid-row: 1 / span 2;
-    width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 .img4{
@@ -82,14 +77,12 @@ body{
     grid-column: 1;
     grid-row: 2;
     width: 200%;
-    height: 100%;
 }
 .video5{
-    border-radius: 15%;
     grid-column: 4;
     grid-row: 1 ;
-    width: 160%;
-    height: 180%;
+    width: 300%;
+    object-fit: cover;
 }
 
 .video6{
@@ -133,7 +126,7 @@ body{
     grid-column: 4;
     grid-row: 2;
     margin-top: 3.5vh;
-}
+} */
 
 .tercero{
     display: grid;
@@ -149,32 +142,37 @@ body{
     object-fit: cover;
 }
 .video10{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1;
     grid-row: 1;
 }
 .video11{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 1;
 }
 .video12{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1;
     grid-row: 2;
 }
 .video13{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 2;
 }
 .video14{
-    border-radius: 15%;
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1;
     grid-row: 3;
 }
 .img5{
-    border-radius: 15%;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 3;
 }
@@ -192,17 +190,25 @@ body{
     object-fit: cover;
 }
 .video15{
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
 .video16{
+    object-fit: cover;
+    border-radius: 10%;
     grid-row: 2 / 4;
 }
 .video17{
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 2 / 3;
 }
 .video18{
+    object-fit: cover;
+    border-radius: 10%;
     grid-column: 2;
     grid-row: 3 / 4;
 }

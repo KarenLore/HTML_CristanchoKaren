@@ -1,7 +1,9 @@
 body{
     background-color: rgb(1, 1, 22);
     margin: 100px;
-    margin-top: 30px;
+    margin-left: 1600px;
+    display: flex;
+    align-items: center;
 }
 
 .primero{
@@ -13,6 +15,7 @@ body{
     gap: 2%;
     max-width: 1920px;
     border-radius: 3%;
+
 }
 .video1{
     border-radius: 2%;
