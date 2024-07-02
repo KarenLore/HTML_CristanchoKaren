@@ -24,11 +24,36 @@
             </nav>
         </div>
 
+
         <div class="fondo-contenedor" id="inicio.html">
             <img src="imagenes/Fondo.png" alt="" width="100%" height="100%" class="img">
-            <img src="imagenes/Consulta.png" alt="" width="100%" height="100%" class="consu">
-            <img src="imagenes/flecha.png" alt="" width="100%" height="100%" class="flechita">
+            <div class="contenido-formulario">
+                <h3>Consulta tu estado <br> del Ingreso <br>Solidario</h3>
+                <p>Por favor ingresa tus datos personales para revisar el estado de entrega de <br> tu ingreso</p>
+                <form>
+                    <label for="idusuario">Tipo de Documento</label>
+                    <select name="idusuario" id="idusuario">
+                        <option value="CeduladeCiudadania">Cedula de Ciudadania</option>
+                        <option value="CeduladeExtranjeria">Cedula de Extranjeria</option>
+                        <option value="Tarjetadeidentidad">Tarjeta de Identidad</option>
+                    </select>
+                    <label for="iddocumento">Numero de Documento</label>
+                    <input type="text" name="iddocumento" id="iddocumento" required> 
 
+                    <label for="idnombre">Primer Nombre</label>
+                    <input type="text" name="idnombre" id="idnombre" required>
+
+                    <label for="idapellido">Primer Apellido</label>
+                    <input type="text" name="idapellido" id="idapellido" required>
+
+                    <label for="expedicionfecha">Fecha de Expedicion del Documento</label>
+                    <input type="date" name="expedicionfecha" id="expedicionfecha" required>
+
+                    <label for="idtelefono">Telefono Movil</label>
+                    <input type="text" name="idtelefono" id="idtelefono" required>
+                    <button type="submit" href="index.html">Consultar</button>
+                  </form>
+                </div>
             <div class="contenido" id="consultar">
                 <p class="titulo"><span>Ingreso Solidario</span> <br>
                     Debido a la situación generada por el COVID-19, <br>
@@ -145,9 +170,26 @@
             <button class="cont-boton">Contactanos</button>
         </div>
         <div class="gobierno">
-            <img src="imagenes/Bottom.png" alt="" class="barraInferior">
-        </div>
+            <div class="caja1">
+                <div class="ubicacion">
+                    <img src="imagenes/ubicacion.jpeg" alt="">
+                    <p>Prosperidad Social <br>
+                        Carrera 7 No.27 -18/Bogotá D.C,Colombia <br>
+                        Codigo Postal:110311 <br>
+                        Horario de Atención: 8:00 a.m. - 2:00 p.m
+                    </p>
+                </div>
+                <div class="gov">
+                    <img src="imagenes/gov.jpeg" alt="">
+                </div>
+                <div class="telefono">
+                    <img src="imagenes/telefono.jpeg" alt="">
+                    <p>Linea Gratuita Nacional: 01-80000-951100 <br>
+                        Linea de Atención Paga (1) 518 8811, <br>
+                        Conmutador: (57+1) 514 2060 <br>
+                    ingreso.solidario@prosperidadsocial.gov.co</p>
+                </div>
+            </div>
     </div>
 </body>
-
 </html>

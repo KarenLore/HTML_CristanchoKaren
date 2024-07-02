@@ -91,13 +91,66 @@ nav a:hover {
     z-index: -1;
 }
 
-.consu {
-    grid-column: 1;
-    grid-row: 1;
-    width: 30vw;
-    height: 80vh;
-    padding-top: 5vw;
-    padding-left: 6vw;
+.contenido-formulario {
+    border: 1px solid white;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+
+.contenido-formulario h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.contenido-formulario p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form select,
+form button {
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+}
+
+form label {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+}
+
+form button {
+    background-color: #007bff;
+    width: 10vw;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid black;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    height: 4vh;
+    cursor: pointer;
 }
 
 .flechita {
@@ -330,7 +383,7 @@ h3 {
 .num1 {
     width: 40px;
     height: 40px;
-    background-color: #007bff; 
+    background-color: #007bff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -341,22 +394,24 @@ h3 {
     margin-left: 48vw;
     margin-top: -4.20vh;
 }
-.parrafo1{
+
+.parrafo1 {
     text-align: center;
     justify-content: center;
     padding-top: 4vh;
     font-size: 1.6vw;
 }
-.respuesta1{
+
+.respuesta1 {
     text-align: center;
     justify-content: center;
     font-size: 1.4vw;
 }
 
-.dos{
+.dos {
     width: 40px;
     height: 40px;
-    background-color: #007bff; 
+    background-color: #007bff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -367,27 +422,30 @@ h3 {
     margin-left: 48vw;
     margin-top: 1vh;
 }
-.parrafo2{
+
+.parrafo2 {
     text-align: center;
     justify-content: center;
     padding-top: 4vw;
     font-size: 1.6vw;
 }
-.respuesta2{
+
+.respuesta2 {
     text-align: center;
     justify-content: center;
     font-size: 1.4vw;
 }
-.vermas{
+
+.vermas {
     padding-left: 47.2vw;
     font-size: 1.6vw;
     width: 4vw;
 }
 
-.tres{
+.tres {
     width: 40px;
     height: 40px;
-    background-color: #007bff; 
+    background-color: #007bff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -399,23 +457,24 @@ h3 {
     margin-top: 5vh;
 }
 
-.parrafo3{
+.parrafo3 {
     text-align: center;
     justify-content: center;
     padding-top: 5vw;
     font-size: 1.6vw;
 }
-.respuesta3{
+
+.respuesta3 {
     text-align: center;
     justify-content: center;
     font-size: 1.4vw;
     margin-top: -1vw;
 }
 
-.cuatro{
+.cuatro {
     width: 40px;
     height: 40px;
-    background-color: #007bff; 
+    background-color: #007bff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -426,27 +485,31 @@ h3 {
     margin-left: 48vw;
     margin-top: 1vh;
 }
-.parrafo4{
+
+.parrafo4 {
     text-align: center;
     justify-content: center;
     padding-top: 5vw;
     font-size: 1.6vw;
 }
-.respuesta4{
+
+.respuesta4 {
     text-align: center;
     justify-content: center;
     font-size: 1.4vw;
     margin-top: -1vw;
 }
-.ver-mas{
+
+.ver-mas {
     padding-left: 47.2vw;
     font-size: 1.6vw;
     width: 4vw;
 }
-.cinco{
+
+.cinco {
     width: 40px;
     height: 40px;
-    background-color: #007bff; 
+    background-color: #007bff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -457,18 +520,21 @@ h3 {
     margin-left: 48vw;
     margin-top: 4vh;
 }
-.parrafo5{
+
+.parrafo5 {
     text-align: center;
     justify-content: center;
     padding-top: 4vw;
     font-size: 1.6vw;
 }
-.respuesta5{
+
+.respuesta5 {
     text-align: center;
     justify-content: center;
     font-size: 1.4vw;
     margin-top: -1vw;
 }
+
 .contactanos {
     align-items: center;
     text-align: center;
@@ -502,13 +568,43 @@ h2 {
     border-radius: 2vw;
 }
 
-.barraInferior {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-top: 6vw;
+.gobierno {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 18vh;
+    background-color: #3266CC;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.caja1 {
+    display: flex;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50px;
+        align-self: center;
+        filter: contrast(5);
+        mix-blend-mode: multiply;
+    }
+}
+
+.telefono {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50px;
+        align-self: center;
+        filter: contrast(5);
+        mix-blend-mode: multiply;
+    }
 }
 
 @media (max-width: 430px) and (max-height:932px) {
@@ -524,26 +620,27 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-    
+
     nav ul {
         flex-direction: column;
         align-items: center;
     }
 
     nav ul li img {
-        height: 40px; 
+        height: 40px;
         margin: 0.5rem 0;
     }
 
     nav a {
-        padding: 0.5rem 1rem; 
+        padding: 0.5rem 1rem;
         font-size: 1rem;
     }
 
-    .a-consultar{
+    .a-consultar {
         padding: 10px 20px;
     }
-    .consu{
+
+    .consu {
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -551,7 +648,8 @@ h2 {
         width: 3vw;
         height: 1vh;
     }
-    .contenido{
+
+    .contenido {
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -562,12 +660,14 @@ h2 {
         font-size: 1rem;
         margin-left: 100px;
     }
+
     .segundo {
         margin-left: -176px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+
         .texto2 {
             margin-left: 90px;
             font-size: 0.6rem;
@@ -575,46 +675,54 @@ h2 {
         }
     }
 
-    .etapas{
+    .etapas {
         width: 35vw;
     }
+
     .globo {
         opacity: 0.1;
     }
-    .etapas-entrega{
+
+    .etapas-entrega {
         grid-template-columns: 1fr;
         flex-direction: column;
         margin-left: 18px;
     }
-    .entrega{
+
+    .entrega {
         font-size: 1.5rem;
         margin-left: -100px;
     }
-    .etapa1{
+
+    .etapa1 {
         grid-column: 1;
         grid-row: 2;
         font-size: 0.8rem;
         margin-left: -50px;
-    } 
+    }
+
     .etapa2 {
         grid-column: 1/2;
         grid-row: 2;
         font-size: 0.8rem;
         margin-left: 80px;
     }
-    .etapa3{
+
+    .etapa3 {
         grid-column: 2/3;
         grid-row: 2;
         font-size: 0.8rem;
         margin-left: -360px;
     }
-    .siete{
+
+    .siete {
         grid-column: 1/2;
         grid-row: 2 / 3;
         font-size: 0.5rem;
         margin-left: -40px;
         margin-top: -80px;
     }
+
     .nueve {
         grid-column: 2/3;
         grid-row: 2/3;
@@ -622,21 +730,24 @@ h2 {
         margin-left: -317px;
         margin-top: -80px;
     }
-    .dieciocho{
+
+    .dieciocho {
         grid-column: 2/4;
         grid-row: 2/3;
         font-size: 0.5rem;
         margin-left: -350px;
         margin-top: -80px;
     }
-    .bancosAutorizados{
+
+    .bancosAutorizados {
         grid-column: 1/2;
         grid-row: 2;
         margin-top: -3px;
         margin-left: 50px;
         font-size: 1.2rem;
     }
-    .bancamia{
+
+    .bancamia {
         grid-column: 1;
         grid-row: 2/3;
         width: 60px;
@@ -644,7 +755,8 @@ h2 {
         margin-top: -200px;
         margin-left: -30px;
     }
-    .bancolombia{
+
+    .bancolombia {
         grid-column: 1/2;
         grid-row: 2/3;
         width: 60px;
@@ -652,7 +764,8 @@ h2 {
         margin-top: -200px;
         margin-left: 100px;
     }
-    .social{
+
+    .social {
         grid-column: 2/3;
         grid-row: 2/3;
         width: 80px;
@@ -660,15 +773,17 @@ h2 {
         margin-left: -350px;
         margin-top: -260px;
     }
-    .movil{
+
+    .movil {
         grid-column: 2;
         grid-row: 2;
         width: 50px;
         height: 18px;
         margin-top: -400px;
         margin-left: -345px;
-    } 
-    .daviplata{
+    }
+
+    .daviplata {
         grid-column: 2/3;
         grid-row: 2;
         margin-top: -360px;
@@ -676,76 +791,96 @@ h2 {
         width: 60px;
         height: auto;
     }
-    .preguntas{
+
+    .preguntas {
         grid-column: 1/2;
         grid-row: 4;
         margin-left: 5px;
     }
-    .frecuen{
+
+    .frecuen {
         margin-left: -90px;
     }
-    .num1, .dos, .tres, .cuatro, .cinco{
+
+    .num1,
+    .dos,
+    .tres,
+    .cuatro,
+    .cinco {
         margin-left: 155px;
         margin-top: -8px;
     }
-    .tres{
+
+    .tres {
         margin-top: -10px;
     }
-    .cuatro{
+
+    .cuatro {
         margin-top: -4px;
     }
 
-    .parrafo1{
+    .parrafo1 {
         font-size: 0.5rem;
         margin-left: -90px;
     }
-    .parrafo2{
+
+    .parrafo2 {
         flex-direction: column;
         margin-left: -90px;
         margin-top: 25px;
         font-size: 0.4rem;
     }
-    .parrafo3{
+
+    .parrafo3 {
         font-size: 0.4rem;
         margin-top: -8px;
         margin-left: -90px;
     }
-    .parrafo4{
+
+    .parrafo4 {
         margin-left: -90px;
         font-size: 0.5rem;
     }
-    .parrafo5{
+
+    .parrafo5 {
         font-size: 0.4rem;
         margin-left: -90px;
     }
-    .respuesta1{
+
+    .respuesta1 {
         margin-left: -90px;
         font-size: 0.5rem;
     }
-    .respuesta2{
+
+    .respuesta2 {
         margin-left: -90px;
         font-size: 0.5rem;
         margin-top: -5px;
     }
-    .respuesta3{
+
+    .respuesta3 {
         margin-left: -90px;
         font-size: 0.4rem;
     }
-    .respuesta4{
+
+    .respuesta4 {
         margin-left: -90px;
         font-size: 0.3rem;
     }
-    .respuesta5{
+
+    .respuesta5 {
         margin-left: -90px;
         font-size: 0.5rem;
     }
-    .vermas, .ver-mas{
+
+    .vermas,
+    .ver-mas {
         width: 30px;
         margin-left: -300px;
         margin-top: -18px;
     }
-    
-    .cont-boton{
+
+    .cont-boton {
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -753,65 +888,137 @@ h2 {
         width: 90px;
         height: 30px;
     }
-    .contactanos{
+
+    .contactanos {
         width: 220px;
         margin-left: 59px;
         height: auto;
     }
+
     .consu {
         width: 60vw;
         height: 80vh;
 
-        
+
     }
-    .fondo-contenedor{
+
+    .fondo-contenedor {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    
-    .num1{
+
+    .num1 {
         width: 24px;
         height: 24px;
         margin-top: 1px;
         font-size: 1rem;
     }
-    .dos{
+
+    .dos {
         width: 24px;
         height: 24px;
         margin-top: 0.5px;
         font-size: 1rem;
     }
+
     .tres {
         width: 24px;
         height: 24px;
         margin-top: -5px;
         font-size: 1rem;
     }
+
     .cuatro {
         width: 24px;
         height: 24px;
         font-size: 1rem;
     }
-    .cinco{
+
+    .cinco {
         width: 24px;
         height: 24px;
         margin-top: -6px;
         font-size: 1rem;
     }
-    .info{
+
+    .info {
         align-items: center;
         text-align: center;
         justify-content: center;
         font-size: 1.5rem;
     }
-    .gobierno{
+
+    .gobierno {
         align-items: center;
         text-align: center;
         justify-content: center;
-        width: 430px;
-        margin-left: -50px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-   
+    .contenido-formulario {
+        border: 1px solid white;
+        border-radius: 35px;
+        background-color: rgb(255, 255, 255);
+        width: 85vw;
+        margin-top: 2vh;
+        margin-left: 1vh;
+    }
+
+    .contenido-formulario h3 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .contenido-formulario p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin-left: 1.2vw;
+        margin-right: 1.2vw;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form input,
+    form select,
+    form button {
+        margin-bottom: 1.5rem;
+        border: 1px solid black;
+        font-size: 1rem;
+        margin-left: 1.2vw;
+        margin-right: 1.2vw;
+    }
+
+    form label {
+        text-align: left;
+        font-size: 1rem;
+        margin-left: 1.2vw;
+        margin-right: 1.2vw;
+    }
+
+    form button {
+        background-color: #007bff;
+        width: 25vw;
+        align-self: center;
+        justify-content: center;
+        border: 1px solid black;
+        color: #ffffff;
+        font-size: 1.2rem;
+        border-radius: 15px;
+        height: 4vh;
+        cursor: pointer;
+    }
+
 }
