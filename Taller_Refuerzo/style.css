@@ -91,7 +91,7 @@ nav a:hover {
     z-index: -1;
 }
 
-.contenido-formulario {
+.formulario {
     border: 1px solid white;
     border-radius: 35px;
     background-color: rgb(255, 255, 255);
@@ -100,7 +100,7 @@ nav a:hover {
     margin-left: 20vh;
 }
 
-.contenido-formulario h3 {
+.formulario h3 {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -108,7 +108,7 @@ nav a:hover {
     font-size: 1.5rem;
 }
 
-.contenido-formulario p {
+.formulario p {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -151,16 +151,6 @@ form button {
     border-radius: 15px;
     height: 4vh;
     cursor: pointer;
-}
-
-.flechita {
-    grid-column: 1;
-    grid-row: 1;
-    width: 1vw;
-    height: 1.5vh;
-    padding-left: 32vw;
-    padding-top: 17.7vw;
-    position: absolute;
 }
 
 .contenido {
