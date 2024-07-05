@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caminante {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 30%;
+    animation: caminar 1s infinite;
+}
+
+@keyframes caminar {
+    0% {
+        background-image: url(img/uno.png);
+    }
+
+    10% {
+        background-image: url(img/dos.png);
+    }
+
+    20% {
+        background-image: url(img/tres.png);
+    }
+
+    30% {
+        background-image: url(img/cuatro.png);
+    }
+
+    40% {
+        background-image: url(img/cinco.png);
+    }
+
+    50% {
+        background-image: url(img/seis.png);
+    }
+
+    60% {
+        background-image: url(img/siete.png);
+    }
+
+    70% {
+        background-image: url(img/ocho.png);
+    }
+
+    80% {
+        background-image: url(img/nueve.png);
+    }
+
+    90% {
+        background-image: url(img/diez.png);
+    }
+
+    100% {
+        background-image: url(img/uno.png);
+    }
+
+}
