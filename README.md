@@ -1,5 +1,5 @@
-# Mapa de Colombia
-Este repositorio contiene cinco proyectos web distintos, cada uno con un enfoque único. A continuación, se proporciona una breve descripción de cada proyecto y las instrucciones para su instalación.
+# 🗺️Mapa de Colombia
+  Este repositorio contiene cinco proyectos web distintos, cada uno con un enfoque único. A continuación, se proporciona una breve descripción de cada proyecto y las instrucciones para     su instalación.
 
 ## Tabla de contenidos
 | Indice | Titulo  |
@@ -61,3 +61,8 @@ Hecho por ***Karen Lorena Cristancho Caceres***
 
 > [!CAUTION]
 > No sobrecargues las páginas con demasiados elementos interactivos para evitar confundir al usuario y comprometer la usabilidad del sitio.
+
+### 📞Contacto
+  Para preguntas, sugerencias o más información sobre el proyecto, no dudes en ponerte en contacto conmigo:
+   - Nombre: Karen Lorena Cristancho
+   - Email: karenlorenacriscaceres@gmail.com
